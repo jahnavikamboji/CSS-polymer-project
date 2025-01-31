@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    margin: 0;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    gap :10px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.lists{
+    display: none;
+    text-decoration: none;
+    color:black;
+    font-size: 13px;
+    padding: 9px 5px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+}
+.shop{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 5px;
+    color: black;
+}
+.menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+.cart-icon{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.img1{
+    background-image: url(mens_outerwear.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+.item1,.item2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h2.items{
+    color: black; 
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.shpbtn {
+    text-decoration: none;
+    color: black;
+    border: 2px solid;
+    text-align: center;
+    width: 180px;
+    align-self: center;
+    padding-top: 12px;
+    height: 45px;
+    margin-bottom: 30px;
+}
+.img2{
+    background-image: url(ladies_outerwear.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.item3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img3{
+    background-image: url(mens_tshirts.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    flex-direction: row;
+    width: 50vw;
+}
+.item4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img4{
+    background-image: url(ladies_tshirts.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    flex-direction: row;
+    width: 50vw;
+}
+.shpbtn1{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    width: 150px;
+    align-self: center;
+    padding-top: 12px;
+    height: 45px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+}
+.name{
+    color: #757575;
+    text-decoration: none;
+}
+.demonly{
+   margin: 8px;
+   padding: 8px ;
+   color: white;
+   text-decoration: none;
+   background-color: black; 
+   width:140px ;
+   bottom: 0;
+}
+.footer-class{
+    margin-bottom: 0;
+}
+@media screen and (min-width: 1440px){
+.img1,.img2{
+    margin: 0 10.5rem;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.lists{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.menu i{
+    display: none;
+}
+.img3,.img4 {
+    height: 400px; 
+    width: 750px;
+    background-size: cover;
+    background-position: center;
+}
+ .cart-icon{
+    font-size: 20px;  
+    padding: 15px;
+    top: 20px;
+   
+}
+} 
