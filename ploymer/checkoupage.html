@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Noto+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="checkoutpage">
+        <div class="navbar">
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="heading">
+                <a href="./index.html" class="shop">SHOP</a>
+            </div>
+    
+            <a href="./cart.html">
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </a>
+
+        </div>
+
+        <div class="check-details">
+            <h4 class="checkout">Checkout</h4>
+            <span class="cartitem">Shop is a demo app-from data will not sent</span>
+            <div class="personal-details">
+                <div class="part1">
+                    <h4 class="person-details-heading">Account Information</h4>
+                    <input type="text" placeholder="Email" class="data">
+                    <input type="text" placeholder="Phone Number" class="data">
+                    <h4 class="person-details-heading">Shipping Address</h4>
+                    <input type="text" placeholder="Address" class="data">
+                    <input type="text" placeholder="City" class="data">
+                    <div class="state-detail">
+                        <input type="text" placeholder="State/Province" class="data">
+                        <input type="text" placeholder="Zip/Postal Code" class="data">
+                    </div>
+                    <div class="lable-country">
+                        <label for="" class="lable-name">Country</label>
+                        <select name="" id="" class="country-section">
+                            <option value="">India</option>
+                            <option value="">USA</option>
+                            <option value="">Canada</option>
+                        </select>
+                    </div>
+                    <h4 class="person-details-heading">Billing Address</h4>
+                    <div class="the-hidden-bill">
+                        <input type="checkbox" id="hide-bill" class="hidden-bill">
+                        <label for="">Use different billing address</label>
+                        <div id="hide" class="hidden-address">
+                            <input type="text" placeholder="Address" class="data one-gap">
+                            <input type="text" placeholder="City" class="data one-gap">
+                            <div class="state-details">
+                                <input type="text" placeholder="State/Province" class="data one-gap">
+                                <input type="text" placeholder="Zip/Postal Code" class="data one-gap">
+                            </div>
+                            <div class="lable-country one-gap">
+                                <label for="" class="lable-name">Country</label>
+                                <select name="" id="" class="country-section">
+                                    <option value="">India</option>
+                                    <option value="">USA</option>
+                                    <option value="">Canada</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="part2">
+                    <h4 class="person-details-heading">Payment Method</h4>
+                    <input type="text" name="" id="" placeholder="Cardholder Name" class="data">
+                    <input type="text" name="" id="" placeholder="Card Number" class="data">
+                    <div class="month-year-cvv">
+                        <select name="" id="" class="month-section">
+                            <option value="">Jan</option>
+                            <option value="">Feb</option>
+                            <option value="">Mar</option>
+                            <option value="">Apr</option>
+                            <option value="">May</option>
+                            <option value="">Jun</option>
+                            <option value="">Jul</option>
+                            <option value="">Aug</option>
+                            <option value="">Sep</option>
+                            <option value="">Oct</option>
+                            <option value="">Nov</option>
+                            <option value="">Dec</option>
+                        </select>
+                        <select name="" id="" class="month-section">
+                            <option value="">2016</option>
+                            <option value="">2017</option>
+                            <option value="">2018</option>
+                            <option value="">2019</option>
+                            <option value="">2020</option>
+                            <option value="">2021</option>
+                            <option value="">2022</option>
+                            <option value="">2023</option>
+                            <option value="">2024</option>
+                            <option value="">2025</option>
+                            <option value="">2026</option>
+                        </select>
+                        <input type="text" placeholder="CVV" class="data">
+                    </div>
+                    <h4 class="person-details-heading">Order Summary</h4>
+                    <div class="checkout-total-price">
+                        <h4 class="the-total-price">Men's Tech Shell Full-Zip</h4>
+                        <span>$100.40</span>
+                    </div>
+                    <div class="checkout-total-price">
+                        <h4 class="the-total-price">Total</h4>
+                        <span>$100.40</span>
+                    </div>
+                    <a href="./placed-order.html" class="place-order">PLACE ORDER</a>
+                </div>
+                
+            </div>
+                </div>
+        </div>
+        <div class="checkoutbtn">
+            <button class="checkoutbtn">PLACE ORDER</button>
+        </div>
+ 
+        <footer class="cart-footer-class">
+            <div class="footer">
+                <a href="./made.html" class="name">Made by Polymer</a>
+            </div>
+            <div class="demo-btn">
+                <a href="./demo.html" class="demonly">DEMO ONLY</a>
+            </div>
+        </footer>
+</body>
+
+</html>
